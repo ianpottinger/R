@@ -37,6 +37,26 @@ install_from_swirl("Getting and Cleaning Data")
 swirl()
 
 vec <- 0:11
+tor = seq(from = 22, to = 0, by = -2)
+print(vec ^ tor)
+print(vec * tor)
+print(vec / tor)
+print(vec + tor)
+print(vec - tor)
+print(vec < tor)
+print(vec > tor)
+print(vec == tor)
+print(vec != tor)
+print(vec & tor)
+print(vec ** tor)
+sqrt(vec)
+log(tor)
+exp(vec)
+log2(tor)
+abs(vec)
+
+plot(vec, tor)
+
 as.character(vec)
 as.integer(vec)
 as.numeric(vec)
@@ -47,6 +67,23 @@ as.octmode(vec)
 as.vector(vec)
 as.matrix(vec)
 as.list(vec)
+
+mat <- vec
+mat.rix = tor
+vect = c(vec,tor)
+small = vect[-11:-19]
+large = vect[vect > 9]
+subset = vect[-c(4, 8)]
+
+mat.rows = matrix(small, nrow = 3, byrow = TRUE)
+mat.cols = matrix(small, nrow = 3, byrow = FALSE)
+mat.rows[2, 2]
+mat.cols[2, 2]
+mat.rows[3, ]
+mat.cols[, 3]
+mat.rows[c(2,3), c(2,3)]
+mat.cols[c(2,3), c(2,3)]
+
 
 getwd()
 dir()
