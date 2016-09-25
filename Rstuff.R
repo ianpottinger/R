@@ -1,6 +1,10 @@
 setwd("G:/WorkingData/Work @ Home/GitHub/R")
 
 install.packages("swirl")
+install.packages("quantstrat")
+install.packages("quantmod")
+install.packages("performanceanalyitics")
+
 library("boot", lib.loc="C:/Program Files/R/R-3.2.1/library")
 library("class", lib.loc="C:/Program Files/R/R-3.2.1/library")
 library("cluster", lib.loc="C:/Program Files/R/R-3.2.1/library")
