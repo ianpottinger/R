@@ -143,5 +143,6 @@ cat("./Results")
 MyIP <- read.table("./Results/MyIP.txt", sep = "", header = FALSE)
 head(MyIP)
 tail(MyIP)
-
+read.csv("./csvfile.csv", sep = ",", header = TRUE, quote = TRUE, nrows = 10, skip = 2)
+read.csv2("./csv2file.csv", sep = ",", header = TRUE)
 
